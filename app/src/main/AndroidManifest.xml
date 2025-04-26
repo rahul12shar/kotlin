@@ -13,6 +13,11 @@
         android:theme="@style/Theme.Rahul"
         tools:targetApi="31">
         <activity
+            android:name=".profileactivity"
+            android:exported="false"
+            android:label="@string/title_activity_profileactivity"
+            android:theme="@style/Theme.Rahul" />
+        <activity
             android:name=".LoginActivity"
             android:exported="true">
             <intent-filter>
